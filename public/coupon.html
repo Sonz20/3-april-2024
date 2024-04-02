@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Free Coupon</title>
+</head>
+<body class="bg-violet-300 font-poppins">
+    <h1 class="my-10 text-xl font-semibold text-center">Free coupon untuk oalakuu :D diambil yaa harus dipake baik2 :3</h1>
+    <div class="container px-8 mx-auto my-10">
+        <img src="/img/ticket.png" alt="ticket">
+    </div>
+    <button></button>
+    <div class="justify-center w-32 h-10 pt-1.5 mx-auto text-center rounded-full bg-sky-300 dark:hover:bg-sky-500" onclick="changeText()">
+        <h1 class="text-xl" id="textButton">Claim</h1>
+    </div>
+    <script>
+        function changeText() {
+            var textButton = document.getElementById("textButton");
+            textButton.innerText = "Claimed";
+        }
+    </script>
+</body>
+</html>
